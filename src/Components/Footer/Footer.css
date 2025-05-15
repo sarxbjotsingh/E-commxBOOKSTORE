@@ -1,30 +1,80 @@
-.footer-container
-{
-    display: grid;
-    width: 100%;
-    min-height: 50vh;
-    margin-top: 7rem;
-    padding: 6rem 10rem;
-    justify-content: center;
-    align-items: flex-start;
-    grid-template-columns: repeat(3, 1fr);
-    color: white;
-    background-color: var(--dark-grey-2);
+.footer-container {
+  display: grid;
+  width: 100%;
+  min-height: 50vh;
+  margin-top: 7rem;
+  padding: 6rem 10rem;
+  justify-content: center;
+  align-items: flex-start;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  background-color: var(--dark-grey-2);
 }
 
-.footer-list
-{
-    padding: 0;
-    list-style: none;
+.footer-list {
+  padding: 0;
+  list-style: none;
 }
 
-.footer-list p
-{
-    color: var(--dull-grey);
-    cursor: pointer;
+.footer-list p {
+  color: var(--dull-grey);
+  cursor: pointer;
 }
 
-.footer-list p:hover
-{
-    color: white;
+.footer-list p:hover {
+  color: white;
+}
+.aboutus-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 6rem 10rem;
+  background-color: var(--dark-grey-2);
+  color: white;
+}
+
+.aboutus-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.aboutus-section {
+  margin-bottom: 3rem;
+}
+
+.aboutus-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.aboutus-section p,
+.aboutus-section li {
+  color: var(--dull-grey);
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.aboutus-section ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.aboutus-section p:hover,
+.aboutus-section li:hover {
+  color: white;
+  cursor: default;
+}
+
+.aboutus-contact a {
+  color: var(--dull-grey);
+  text-decoration: none;
+}
+
+.aboutus-contact a:hover {
+  color: white;
+  text-decoration: underline;
 }
