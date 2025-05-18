@@ -81,10 +81,10 @@ const AboutUs = () => {
               href="mailto:support@bookztron.com"
               className="text-blue-400 underline"
             >
-              support@bookztron.com
+              sarxbjotsingh@gmail.com
             </a>
           </p>
-          <p className="text-gray-300">📞 Phone: +1 234 567 890</p>
+          <p className="text-gray-300">📞 Phone: +918708094353</p>
         </section>
       </div>
     </div>
